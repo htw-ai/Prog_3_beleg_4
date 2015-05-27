@@ -1,8 +1,9 @@
 CC=g++
 TARGET=main
+OPTIONS=-Wall
 
 all: *.cpp
-	$(CC) *.cpp -o $(TARGET)
+	$(CC) *.cpp -o $(TARGET) $(OPTIONS)
 
 run:
 	./$(TARGET)
